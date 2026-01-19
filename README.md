@@ -1,31 +1,51 @@
-Post - Flutter Clean Architecture
-A clean and simple Flutter application for managing posts and comments, focusing on modularity and scalable code structure.
+<h1 align="center">Flutter Posts App</h1>
 
-Tech Stack
-Framework: Flutter
+<p align="center">
+  <strong>A professional Flutter application built with Clean Architecture and Provider.</strong>
+</p>
 
-Architecture: Clean Architecture (Data, Domain, Presentation)
+<hr />
 
-State Management: Provider
+<h3>Tech Stack</h3>
+<ul>
+  <li><b>State Management:</b> Provider</li>
+  <li><b>Architecture:</b> Clean Architecture (Data, Domain, Presentation)</li>
+  <li><b>Networking:</b> HTTP Package</li>
+  <li><b>Validation:</b> Form & TextFormField Validation</li>
+</ul>
 
-Networking: HTTP
+<hr />
 
-API: JSONPlaceholder (Mock API)
+<h3>Key Features</h3>
+<ul>
+  <li><b>Dynamic Fetching:</b> Get posts and comments from remote API.</li>
+  <li><b>Content Management:</b> Add new posts and comments through interactive Bottom Sheets.</li>
+  <li><b>Data Safety:</b> Delete posts with a customized confirmation dialog.</li>
+  <li><b>Form Validation:</b> Email and content validation before submission.</li>
+  <li><b>Clean UI:</b> Loading states and intuitive navigation.</li>
+</ul>
 
-Key Features
-List and View post details.
+<hr />
 
-Add new posts and comments with form validation.
+<h3>Project Structure</h3>
+<pre>
+lib/
+├── data/          # Data sources & Repository implementations
+├── domain/        # Entities & Use Cases
+└── presentation/  # Providers & UI Components
+</pre>
 
-Delete posts with confirmation dialogs.
+<hr />
 
-Clean UI with custom BottomSheets.
-
-Optimized loading states for all async operations.
-
-Project Structure
-Domain: Entities and UseCases.
-
-Data: Repositories implementation and DataSources.
-
-Presentation: Providers and UI Widgets.
+<h3>Setup & Run</h3>
+<ol>
+  <li>Clone the project:
+    <code>git clone https://github.com/your-username/your-repo.git</code>
+  </li>
+  <li>Get dependencies:
+    <code>flutter pub get</code>
+  </li>
+  <li>Run the application:
+    <code>flutter run</code>
+  </li>
+</ol>
