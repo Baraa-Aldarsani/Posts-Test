@@ -1,3 +1,11 @@
+<h3>Screenshots</h3>
+<p align="center">
+  <img src="screenshots/photo_2026-01-19_14-37-38.jpg" width="30%" alt="Post List" />
+  <img src="screenshots/photo_2026-01-19_14-40-51.jpg" width="30%" alt="Post Details" />
+  <img src="screenshots/photo_2026-01-19_14-40-48.jpg" width="30%" alt="Add New Comment" />
+  <img src="screenshots/photo_2026-01-19_14-40-54.jpg" width="30%" alt="Delete Post" />
+</p>
+
 <h1 align="center">Flutter Posts App</h1>
 
 <p align="center">
@@ -36,4 +44,5 @@ lib/
 </pre>
 
 <hr />
+
 
