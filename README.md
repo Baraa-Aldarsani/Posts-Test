@@ -37,15 +37,3 @@ lib/
 
 <hr />
 
-<h3>Setup & Run</h3>
-<ol>
-  <li>Clone the project:
-    <code>git clone https://github.com/your-username/your-repo.git</code>
-  </li>
-  <li>Get dependencies:
-    <code>flutter pub get</code>
-  </li>
-  <li>Run the application:
-    <code>flutter run</code>
-  </li>
-</ol>
